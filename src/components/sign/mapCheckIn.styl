@@ -1,0 +1,104 @@
+.map-container
+  .map
+    z-index 2000
+  .re-location
+    position absolute
+    bottom 80px
+    right 0px
+    width 130px
+    height 130px
+    border-radius 50%
+  .bottom-bg
+    position absolute
+    bottom -1px
+    left 0
+    width 100%
+    height 145px
+    .bg
+      background #fff
+      position absolute
+      bottom 0
+      left 0
+      width 100%
+      height 20px
+  .sign-button
+    position absolute
+    left 50%
+    bottom -10px
+    transform translate(-50%)
+    .bg
+      width 230px
+      height 230px
+      position relative
+      z-index 1000
+    .no-sign
+      background #ccc
+      border-radius 50%
+      width 200px
+      height 200px
+      margin-bottom 15px
+    .text
+      position absolute
+      left 50%
+      transform translateX(-50%)
+      bottom 0
+      width 230px
+      height 155px
+      text-align center
+      color #fff
+      z-index 2000
+      .pfirst-child
+        font-weight bold
+        font-size 30px
+        padding-bottom 10px
+      .plast-child
+        font-size 28px
+  .ic-location
+    display none
+    width 58px
+    height 74px
+    position absolute
+  .mask-bg
+    position absolute
+    left 0
+    bottom 0
+    width 100%
+    height calc(100% - 280px)
+    background rgba(0, 0, 0, .3)
+    z-index 999
+  .sign-model-box
+    position absolute
+    left 0
+    top 0
+    width 100%
+    height 100%
+    background rgba(0, 0, 0, .3)
+    .sign-model
+      width 65vw
+      position absolute
+      top 25%
+      left 50%
+      transform translate(-50%, -25%)
+      border-radius 10px
+      background #fff
+      .content
+        width 100%
+        padding 30px
+        height 150px
+        font-size 16Px
+        color #ec4e4e
+      .btns
+        position absolute
+        bottom 0
+        width 100%
+        display flex
+        .ok,.cancel
+          height 40Px
+          line-height 40Px
+          flex 1
+          font-size 16Px
+          color #fff
+        .ok
+          background #f56c6c
+        .cancel
+          background #909399

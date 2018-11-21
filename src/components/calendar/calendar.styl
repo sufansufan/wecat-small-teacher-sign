@@ -1,0 +1,83 @@
+.index
+  width 100vw
+  height 100vh
+  background #3ea1f5
+  padding 25px 20px
+  .index-calendar
+    background #fff
+    border-radius 8px
+    height 100%
+    position relative
+    padding 20px
+    .top-icon
+      background url(../../asset/images/index_top.png) center top no-repeat
+      background-size 90%
+      width 100%
+      height 60px
+      position absolute
+      top -14px
+      left 0
+.calendar
+  margin-top 40px
+  view
+    text-align center
+  .left-btn,
+  .right-btn
+    color #3ea1f5
+    align-items center
+    padding-top 20px
+  .current-date
+    font-size 36px
+  .select-day
+    background url(../../asset/images/calendar.png) right center no-repeat
+    background-size 18%
+    padding 0 40px 0 0
+    text
+      color #a0a0a0
+  .calendar-table
+    width 100%
+    height calc(100vh - 240px)
+    font-size 25px
+    margin-top 20px
+    color #888
+    .tr
+      width 100%
+      display flex
+      justify-content space-between
+      &:not(:first-child)
+        height calc(100% / 15)
+        line-height 2.4
+    .actived
+      background #65b4f7 url(../../asset/images/book.png) center no-repeat
+      background-size 50%
+    .checked
+      background-color #40c850
+    .sameday text
+      color #3ea1f5
+    .th, .td
+      border-bottom 1px solid #e7eee9
+      border-right 1px solid #e7eee9
+      text-align center
+      width 100%
+    .tr:last-child .td
+      border-bottom 0
+    .tr .td:last-child,
+    .tr .th:last-child
+      border-right 0
+    .th
+      &:first-child text
+        display inline-flex
+        align-self bottom
+      text
+        display block
+        line-height 30px
+  .tleft
+    text-align left !important
+  .sign-in-btn
+    background-color #3ea1f5 !important
+    color #fff
+  .cancel-btn
+    background-color #e5e5e5 !important
+
+.sign-btn .at-modal-footer
+    border 0

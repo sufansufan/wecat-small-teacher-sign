@@ -1,0 +1,16 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "%E6%95%99%E5%B8%88%E7%AB%AF%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"description": "",
+	"appid": "wx62c69b5554c667cb",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.2",
+	"condition": {}
+}

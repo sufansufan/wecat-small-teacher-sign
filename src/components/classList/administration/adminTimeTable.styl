@@ -1,0 +1,77 @@
+.admin-table
+  margin-top 40px
+  .count
+    width 140px
+    height 50px
+    border-radius 5px
+    background rgba(0,0,0,0.4)
+    position fixed
+    bottom 17px
+    right 20px
+    text-align center
+    line-height 50px
+    text
+      color #fff
+      font-size 25px
+  .at-row
+    view
+      text-align center
+    .left-btn,
+    .right-btn
+      color #3ea1f5
+      align-items center
+      padding-top 20px
+    .current-date
+      font-size 36px
+      font-weight 600
+    .select-day
+      display flex
+      justify-content center
+      align-items center
+      text
+        color #a0a0a0
+        margin-right 20px
+      view
+        width 30px
+        height 30px
+        background url(../../../asset/images/calendar.png) right center no-repeat
+        background-size 100%
+  .search
+    width calc(100% - 60px)
+    height 70px
+    display flex
+    background #f3f3f3
+    padding 0 30px
+    margin 30px auto 20px
+    border-radius 50px
+    line-height 68px
+    .class-input
+      width 100%
+      font-size 30px
+      margin-left 10px
+      margin-top 14px
+  .class-list
+    width calc(100vw - 40px)
+    height calc(100vh - 364px)
+    background #f2f2f2
+    padding: 20px
+    .data-null
+      color #dcdada
+      font-size 40px
+      text-align center
+    .class-box
+      width 100%
+      height auto
+      background #fff
+      border-radius 10px
+      padding 30px
+      margin-bottom 20px
+      .calss-name
+        font-size 36px
+        font-weight 600
+      .class-detail
+        display flex
+        justify-content space-between
+        font-size 30px
+        color #8a8a8a
+        margin-top 10px
