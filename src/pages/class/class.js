@@ -3,7 +3,7 @@ import { View } from "@tarojs/components";
 
 import "./class.styl";
 
-import ClassList from "../../components/classList/classList";
+import ClassList from "../../components/classList/classList"
 
 export default class ClassIndex extends Component {
   config = {

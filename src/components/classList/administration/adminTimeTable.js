@@ -182,11 +182,13 @@ export default class AdminTimetable extends Component {
           <Text>{item.class_name}</Text>
         </View>
         <View className="class-detail">
-          <View>
+          <View className="class-detail-style">
             <Text>第{num2font(item.class_sequence)}节</Text>
             <Text>
               {item.start_time} - {item.end_time}
             </Text>
+            <Text style={{ color: "#80c7d3" }}>{item.teacher_name}</Text>
+            <Text style={{ color: "#80c7d3" }}>{item.campus_name}</Text>
           </View>
           <View>
             <Text>
